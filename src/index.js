@@ -38,7 +38,9 @@ export default function install(Vue, options) {
                     ) {
                         return true;
                     }
-                } catch (error) {}
+                } catch (error) {
+                    this.removeToken();
+                }
             }
 
             return false;
