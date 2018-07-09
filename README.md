@@ -8,7 +8,7 @@ Easy client side authentication for your Vue applications.
 npm install @optix/vue-auth --save
 ```
 
-```ecmascript 6
+```javascript
 import Vue from 'vue';
 import VueAuth from '@optix/vue-auth';
 
@@ -19,7 +19,7 @@ Vue.use(VueAuth);
 
 Accessing the auth object:
 
-```ecmascript 6
+```javascript
 // Globally
 Vue.auth.token();
 
