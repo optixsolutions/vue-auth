@@ -1,0 +1,21 @@
+{
+  "name": "vue-auth",
+  "version": "1.0.0-alpha",
+  "description": "Easy vue authentication",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/optixsolutions/vue-auth.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jack Robertson <jack@optixsolutions.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
