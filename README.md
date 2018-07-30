@@ -35,6 +35,7 @@ this.$auth.token();
 * removeToken()
 * setUser(user)
 * user()
+* removeUser()
 * check()
 
 ## License

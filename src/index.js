@@ -27,6 +27,10 @@ export default function install(Vue, options) {
             return JSON.parse(localStorage.getItem('auth.user'));
         },
 
+        removeUser() {
+            localStorage.removeItem('auth.user');
+        },
+
         check() {
             if (this.hasToken()) {
                 try {
